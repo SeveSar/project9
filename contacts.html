@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="hide-nav">
+  <svg style="display:none;">
+    <symbol id="inst-svg" viewBox="0 0 15 15">
+      <g>
+        <path
+          d="M11.1344 0.0585938H3.75573C1.72678 0.0585938 0.0664062 1.71825 0.0664062 3.74792V11.1266C0.0664062 13.1555 1.72678 14.8159 3.75573 14.8159H11.1344C13.1633 14.8159 14.8237 13.1555 14.8237 11.1266V3.74792C14.8237 1.71825 13.1633 0.0585938 11.1344 0.0585938ZM7.44506 10.5116C5.74685 10.5116 4.37056 9.1347 4.37056 7.43725C4.37056 5.73904 5.74685 4.36275 7.44506 4.36275C9.14251 4.36275 10.5196 5.73904 10.5196 7.43725C10.5196 9.1347 9.14251 10.5116 7.44506 10.5116ZM11.4419 4.36275C10.932 4.36275 10.5196 3.94972 10.5196 3.44042C10.5196 2.93112 10.932 2.51808 11.4419 2.51808C11.9518 2.51808 12.3642 2.93112 12.3642 3.44042C12.3642 3.94972 11.9518 4.36275 11.4419 4.36275Z" />
+      </g>
+    </symbol>
+    <symbol id="loup" viewBox="0 0 19 19">
+      <g>
+        <path
+          d="M7.49896 14.794C9.10807 14.7941 10.6712 14.2572 11.9406 13.2684L16.7299 18.0577C17.0877 18.4033 17.6578 18.3934 18.0033 18.0356C18.3404 17.6866 18.3404 17.1333 18.0033 16.7843L13.214 11.995C15.6676 8.83664 15.0962 4.28727 11.9379 1.83371C8.77947 -0.61984 4.23014 -0.0484919 1.77659 3.1099C-0.676969 6.26828 -0.105621 10.8177 3.05277 13.2712C4.32431 14.259 5.88879 14.7949 7.49896 14.794ZM3.6508 3.70516C5.7761 1.57981 9.2219 1.57977 11.3472 3.70508C13.4726 5.83038 13.4726 9.27618 11.3473 11.4015C9.22202 13.5269 5.77622 13.5269 3.65087 11.4016C3.65084 11.4016 3.65084 11.4016 3.6508 11.4015C1.52549 9.2917 1.51297 5.85847 3.62279 3.73316C3.63211 3.7238 3.64143 3.71448 3.6508 3.70516Z" />
+      </g>
+    </symbol>
+  </svg>
+  <header class="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="header__top-inner">
+        <div class="header__top-left">
+          <address class="header__top-address">
+            <a href="contacts.html" target="_blank">Москва, ул. 3-я Фрунзенская, 19 (м. Спортивная)</a>
+          </address>
+          <a href="https://www.instagram.com/autoestetica_msk" target="_blank" class="header__top-inst inst">
+            autoestetica_msk
+            <svg class="inst-svg">
+              <use xlink:href="#inst-svg"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="header__top-right">
+          <a href="about.html" class="header__top-link">О компании</a>
+          <a href="deliver.html" class="header__top-link">Доставка и оплата</a>
+          <a href="contacts.html" class="header__top-link">Контакты</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="container">
+      <div class="header__bottom-inner">
+        <div class="header__bottom-logo">
+          <a class="header__logo" href="index.html">
+            <img src="img/logo.svg" alt="Лого">
+          </a>
+          <button class="btn--dark btn" btn-catalog>
+            <div class="icon">
+              <span></span>
+            </div>
+            <span>Каталог таваров</span>
+          </button>
+        </div>
+        <div class="header__bottom-search">
+          <form class="header__bottom-form form" action="">
+            <div class="form__group form__group--search">
+              <input type="text" class="form__control form__control--search" placeholder="Поиск по сайту">
+              <button type="submit" class="btn form__btn">
+                <svg class="loup">
+                  <use xlink:href="#loup"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="header__bottom-actions">
+          <div class="header__bottom-social social">
+            <span class="social__text">Написать нам:</span>
+            <div class="social__links">
+              <a class="social__link" href="https://telegram.me/autoestetica_msk">
+                <img src="img/icons/telegram.svg" alt="">
+              </a>
+              <a class="social__link social__link--whatsapp" href="https://wa.me/+79852118193">
+                <img src="img/icons/whatsapp.svg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="header__bottom-phone">
+            <a class="header__bottom-call" href="tel:+74952118193">
+              +7 (495) 211-81-93
+            </a>
+            <div class="text-right">
+              <button class="btn header__bottom-callback" modal-btn="#callback">
+                Обратный звонок
+              </button>
+            </div>
+          </div>
+          <div class="header__bottom-user user">
+            <a href="compare.html" class="user__btn btn" data-compare>
+              <img src="img/icons/compare.svg" alt="Весы">
+              <span class="user__count">3</span>
+            </a>
+            <a href="cart.html" class="user__btn btn" data-cart>
+              <img src="img/icons/cart.svg" alt="Корзина">
+              <span class="user__count">2</span>
+            </a>
+          </div>
+        </div>
+        <button class="header__burger burger">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="header__nav">
+    <div class="container">
+      <nav class="header__nav-nav nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              Пленки
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              Автохимия
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              Аксессуары
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              Инструменты
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              Тонировочные пленки
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              Антигравийные пленки
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="#">
+              Все товары
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="header__catalog catalog-menu">
+    <nav class="catalog-menu__nav">
+      <ul class="catalog-menu__nav-list">
+        <li class="catalog-menu__nav-item"><a href="#" class="catalog-menu__nav-link active">Пленки</a></li>
+        <li class="catalog-menu__nav-item"><a href="#" class="catalog-menu__nav-link">Автохимия</a></li>
+        <li class="catalog-menu__nav-item"><a href="#" class="catalog-menu__nav-link">Аксессуары</a></li>
+        <li class="catalog-menu__nav-item"><a href="#" class="catalog-menu__nav-link">Инструменты</a></li>
+        <li class="catalog-menu__nav__nav-item"><a href="#" class="catalog-menu__nav-link">Акции</a></li>
+      </ul>
+    </nav>
+    <div class="catalog-menu__wrapper">
+      <div class="catalog-menu__body catalog-menu__body--show">
+        <div class="catalog-menu__body-main body-main">
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Тонировочные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunControl</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Stek</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">UltraVision</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Атермальные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Декоративные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Антигравийные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Архитектурные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">StablePro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog-menu__body-footer body-footer">
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/solarnex.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/uliravision.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/llumar.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/suntek.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/johnson.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-menu__body">
+        <div class="catalog-menu__body-main body-main">
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Тонировочные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunControl</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Stek</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">UltraVision</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Атермальные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Декоративные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Антигравийные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Архитектурные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">StablePro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog-menu__body-footer body-footer">
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/solarnex.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/uliravision.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/llumar.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/suntek.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/johnson.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-menu__body">
+        <div class="catalog-menu__body-main body-main">
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Тонировочные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunControl</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Stek</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">UltraVision</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Атермальные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Декоративные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Антигравийные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Архитектурные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">StablePro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog-menu__body-footer body-footer">
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/solarnex.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/uliravision.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/llumar.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/suntek.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/johnson.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-menu__body">
+        <div class="catalog-menu__body-main body-main">
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Тонировочные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunControl</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Stek</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">UltraVision</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Атермальные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Декоративные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Антигравийные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Архитектурные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">StablePro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog-menu__body-footer body-footer">
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/solarnex.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/uliravision.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/llumar.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/suntek.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/johnson.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-menu__body">
+        <div class="catalog-menu__body-main body-main">
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Тонировочные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunControl</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Stek</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">UltraVision</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Атермальные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Декоративные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Антигравийные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">SunTeck</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Solarnex</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-main__item">
+            <h4 class="body-main__item-title">Архитектурные пленки</h4>
+            <ul class="body-main__list">
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">Llumar</a>
+              </li>
+              <li class="body-main__list-item">
+                <a href="#" class="body-main__list-link">StablePro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog-menu__body-footer body-footer">
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/solarnex.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/uliravision.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/llumar.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/suntek.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+          <div class="body-footer__item">
+            <span>
+              <img src="img/catalog/johnson.png" alt="" class="body-footer__img">
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <div class="mobile-menu__catalog-menu">
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__list-item">
+          <button js-menu-btn>Плёнки</button>
+          <div class="mobile-menu__catalog-body">
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="mobile-menu__list-item">
+          <button js-menu-btn>Автохимия</button>
+          <div class="mobile-menu__catalog-body">
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="mobile-menu__list-item">
+          <button js-menu-btn>Аксессуары</button>
+          <div class="mobile-menu__catalog-body">
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="mobile-menu__list-item">
+          <button js-menu-btn>Инструменты</button>
+          <div class="mobile-menu__catalog-body">
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__catalog-item">
+              <h4 class="mobile-menu__catalog-title">Тонировочные пленки</h4>
+              <ul class="mobile-menu__catalog-list">
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Llumar</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunTeck</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">SunControl</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">Stek</a>
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__catalog-link">UltraVision</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <nav class="mobile-menu__nav mobile-nav">
+      <a href="#" class="mobile-nav__link">Доставка и оплата</a>
+      <a href="#" class="mobile-nav__link">Контакты</a>
+      <a href="#" class="mobile-nav__link">О компании</a>
+      <a href="#" class="mobile-nav__link">Полезная информация</a>
+    </nav>
+    <form action="/" class="mobile-menu__form form">
+      <div class="form__group form__group--search">
+        <input type="text" class="form__control form__control--dark form__control--search" placeholder="Поиск по сайту">
+        <button class="btn form__btn form__btn--dark">
+          <svg class="loup">
+            <use xlink:href="#loup"></use>
+          </svg>
+        </button>
+      </div>
+    </form>
+    <div class="mobile-menu__phone">
+      <a href="tel:+74952118193">+7 (495) 211-81-93</a>
+      <button class="btn" modal-btn="#callback">Обратный звонок</button>
+    </div>
+    <address classs="mobile-menu__address">
+      <div>
+        Москва, ул. 3-я Фрунзенская, 19
+        (м. Спортивная)
+      </div>
+      <a href="mailto:in@awtoestetika.ru">in@awtoestetika.ru</a>
+    </address>
+    <div class="mobile-menu__social social">
+      <div class="social__wrapper">
+        <span class="social__text">Написать нам:</span>
+        <div class="social__links">
+          <a href="https://telegram.me/autoestetica_msk" class="social__link">
+            <img src="img/icons/telegram.svg" alt="telegram">
+          </a>
+          <a href="https://wa.me/+79852118193" class="social__link">
+            <img src="img/icons/whatsapp.svg" alt="whatsapp">
+          </a>
+        </div>
+      </div>
+      <a href="https://www.instagram.com/autoestetica_msk" class="inst inst--black mobile-menu__inst">
+        autoestetica_msk
+        <svg class="inst-svg">
+          <use xlink:href="#inst-svg"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="catalog-overlay"></div>
+</header>
+  <div class="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb__inner">
+        <ul class="breadcrumb-list">
+          <li class="breadcrumb__item"><a href="#">Главная</a></li>
+          <li class="breadcrumb__item breadcrumb__item--active">Контакты</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <section class="contacts">
+    <div class="container">
+      <h2 class="contacts__title title-main">Контакты</h2>
+      <div class="contacts__inner">
+        <div class="contacts__grid">
+          <div class="contacts__col">
+            <div class="contacts__item">
+              <div class="contacts__item-img">
+                <img src="img/icons/contact-location.svg" alt="location">
+              </div>
+              <div class="contacts__item-text">
+                Москва, ул. 3-я Фрунзенская, 19 (м. Спортивная)
+              </div>
+            </div>
+          </div>
+          <div class="contacts__col">
+            <div class="contacts__item">
+              <div class="contacts__item-img">
+                <img src="img/icons/contact-email.svg" alt="email">
+              </div>
+              <a href="mailto:in@awtoestetika.ru" target="_blank" class="contacts__item-text contacts__item-link">
+                in@awtoestetika.ru
+              </a>
+            </div>
+          </div>
+          <div class="contacts__col">
+            <div class="contacts__item">
+              <div class="contacts__item-img">
+                <img src="img/icons/contact-phone.svg" alt="phone">
+              </div>
+              <a href="tel:+74952118193" target="_blank" class="contacts__item-text contacts__item-link phone">
+                +7 (495) 211-81-93
+              </a>
+            </div>
+          </div>
+          <div class="contacts__col">
+            <div class="contacts__item">
+              <div class="contacts__item-img">
+                <img src="img/icons/contact-time.svg" alt="time">
+              </div>
+              <div class="contacts__item-text">
+                Время работы: с 10:00 до 22:00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="ymap" icon-url="../img/icons/map-location.svg"></div>
+        <div class="contacts__props">
+          <div class="contacts__props-title">Реквизиты</div>
+          <ul class="contacts__props-list">
+            <li class="contacts__props-item">ОГРН 1147746129948, </li>
+            <li class="contacts__props-item">ИНН 77288701779, </li>
+            <li class="contacts__props-item">КПП 772801001,</li>
+            <li class="contacts__props-item">р/с 40702810002830000480, </li>
+            <li class="contacts__props-item">БИК 044525593, </li>
+            <li class="contacts__props-item">Кор. счет № 30101810200000000593</li>
+            <li class="contacts__props-item">ОАО «Альфа-Банк» г. Москвы</li>
+          </ul>
+        </div>
+      </div>
+      <section class="features">
+        <div class="container">
+          <div class="features__inner">
+            <h2 class="features__title title">Почему выбирают нас</h2>
+            <div class="features__grid">
+              <div class="features__grid-item">
+                <div class="features__item">
+                  <div class="features__img">
+                    <img src="img/features/delivery.png" alt="delivery">
+                  </div>
+                  <h4 class="features__subtitle">Доставка по всем регионам России</h4>
+                </div>
+              </div>
+              <div class="features__grid-item">
+                <div class="features__item">
+                  <div class="features__img">
+                    <img src="img/features/pay.png" alt="pay">
+                  </div>
+                  <h4 class="features__subtitle">Удобные способы оплаты</h4>
+                </div>
+              </div>
+              <div class="features__grid-item">
+                <div class="features__item">
+                  <div class="features__img">
+                    <img src="img/features/catalog.png" alt="catalog">
+                  </div>
+                  <h4 class="features__subtitle">Большой каталог товаров</h4>
+                </div>
+              </div>
+              <div class="features__grid-item">
+                <div class="features__item">
+                  <div class="features__img">
+                    <img src="img/features/office.png" alt="office">
+                  </div>
+                  <h4 class="features__subtitle">Удобное расположения офиса</h4>
+                </div>
+              </div>
+              <div class="features__grid-item">
+                <div class="features__item">
+                  <div class="features__img">
+                    <img src="img/features/gift.png" alt="gift">
+                  </div>
+                  <h4 class="features__subtitle">Подарки и скидки постоянным клиентам</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="page-nav">
+        <a class="page-nav__link" href="about.html">О компании</a>
+        <a class="page-nav__link" href="deliver.html">Доставка и оплата</a>
+        <a class="page-nav__link" href="all-news.html">Новости и статьи</a>
+        <a class="page-nav__link active" href="contacts.html">Контакты</a>
+      </div>
+    </div>
+  </section>
+  <div class="modal-overlay">
+  <div class="modal" id="callback">
+    <button class="modal__close btn">
+      <img src="img/icons/modal-close.svg" alt="close">
+    </button>
+    <div class="modal__header">
+      <img src="img/icons/modal-img.svg" alt="phone">
+      <h4 class="modal__title">Обратный звонок</h4>
+    </div>
+    <form action="\" class="modal__form form">
+      <div class="form__group">
+        <input required type="text" class="form__control form__control--type _name _req _callback" placeholder="Ваше имя">
+        <small>Введите корректное Имя</small>
+      </div>
+      <div class="form__group">
+        <input required data-mask="+7 (###) ###-##-##" type="tel"
+          class="form__control _req _phone _callback masked form__control--type" placeholder="Ваш телефон">
+        <small>Введите корректный номер телефона</small>
+      </div>
+      <div class="form__group">
+        <input type="checkbox" id="accept" class="form__control form__control--check">
+        <label class="form__label" for="accept">Cогласен на обработку моих персональных данных</label>
+      </div>
+      <button type="submit" disabled="true" class="btn btn--dark btn--modal" form-btn="callback">Перезвонить мне</button>
+    </form>
+  </div>
+  <div class="modal modal--big" id="buy">
+    <button class="modal__close btn">
+      <img src="img/icons/modal-close.svg" alt="close">
+    </button>
+    <div class="modal__header">
+      <h4 class="modal__title">Купить в один клик</h4>
+    </div>
+    <div class="modal__inner">
+      <div class="modal__info">
+        <article class="modal__product product">
+          <div class="product__img">
+            <img class="modal-product-img" src="img/modal/modal-product.png" alt="product">
+          </div>
+          <div class="product__body">
+            <div class="product__content">
+              <h4 class="product__title modal-product-title">Тонировочная пленка Solarnex Xblack</h4>
+            </div>
+            <div class="product__price modal-product-price">
+              1 000 <span>руб.</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <form action="\" class="modal__form form modal__form--small">
+        <input class="modal-info-title" type="hidden">
+        <input class="modal-info-price" type="hidden">
+        <input class="modal-info-value" type="hidden">
+        <div class="form__group">
+          <input required type="text" class="form__control form__control--type _name _buy _req" placeholder="Ваше имя">
+          <small>Введите корректное Имя</small>
+        </div>
+        <div class="form__group">
+          <input required data-mask="+7 (###) ###-##-##" type="tel"
+            class="form__control _req _phone _buy masked form__control--type" placeholder="Ваш телефон">
+          <small>Введите корректный номер телефона</small>
+        </div>
+        <div class="form__group">
+          <input type="checkbox" id="accept_2" class="form__control form__control--check">
+          <label class="form__label" for="accept_2">Cогласен на обработку моих персональных данных</label>
+        </div>
+        <button type="submit" disabled="true" class="btn btn--dark btn--modal" form-btn="buy">Купить в один клик</button>
+      </form>
+    </div>
+  </div>
+</div>
+  <footer class="footer">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__top-inner">
+        <a href="#" class="footer__logo">
+          <img src="img/footer-logo.svg" alt="logo">
+        </a>
+        <div class="footer__nav">
+          <div class="footer__nav-wrapper">
+            <div class="footer__menu">
+              <h4 class="footer__menu-title">
+                Меню
+              </h4>
+              <nav>
+                <a href="#" class="footer__menu-link">Пленки</a>
+                <a href="#" class="footer__menu-link">Автохимия</a>
+                <a href="#" class="footer__menu-link">Аксессуары</a>
+                <a href="#" class="footer__menu-link">Инструменты</a>
+                <a href="#" class="footer__menu-link">Тонировочные пленки</a>
+                <a href="#" class="footer__menu-link">Антигравийные пленки</a>
+                <a href="#" class="footer__menu-link">Все товары</a>
+              </nav>
+            </div>
+            <div class="footer__menu">
+              <h4 class="footer__menu-title">
+                Компания
+              </h4>
+              <nav>
+                <a href="about.html" class="footer__menu-link">О компании</a>
+                <a href="deliver.html" class="footer__menu-link">Доставка и оплата</a>
+                <a href="contacts.html" class="footer__menu-link">Контакты</a>
+                <a href="#" class="footer__menu-link">Полезная информация</a>
+              </nav>
+            </div>
+          </div>
+          <div class="footer__search">
+            <div class="form__group form__group--search">
+              <input type="text" class="form__control form__control--dark form__control--search" placeholder="Поиск по сайту">
+              <button class="btn form__btn form__btn--dark">
+                <svg class="loup">
+                  <use xlink:href="#loup"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer__actions">
+          <a href="tel:+74952118193" class="footer__phone">+7 (495) 211-81-93</a>
+          <address class="footer__address">
+            <div>Москва, ул. 3-я Фрунзенская, 19 (м. Спортивная)</div>
+            <a href="mailto:in@awtoestetika.ru">in@awtoestetika.ru</a>
+          </address>
+          <div class="footer__top-social social">
+            <div class="social__wrapper">
+              <span class="footer__social-text social__text">Написать нам:</span>
+              <div class="footer__social-links social__links">
+                <a class="social__link" href="https://telegram.me/autoestetica_msk">
+                  <img src="img/icons/telegram.svg" alt="">
+                </a>
+                <a class="social__link social__link--whatsapp" href="https://wa.me/+79852118193">
+                  <img src="img/icons/whatsapp.svg" alt="">
+                </a>
+              </div>
+            </div>
+            <a href="https://www.instagram.com/autoestetica_msk" target="_blank"
+              class="footer__top-inst inst inst--black">
+              autoestetica_msk
+              <svg class="inst-svg">
+                <use xlink:href="#inst-svg"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__bottom-inner">
+        <div class="footer__bottom-left">
+          <div class="footer__bottom-text">
+            Все права защищены © 2021
+          </div>
+        </div>
+        <div class="footer__bottom-center">
+          <div class="footer__bottom-text">
+            <a href="#">Политика конфеденциальности</a>
+          </div>
+        </div>
+        <div class="footer__bottom-right">
+          <div class="footer__bottom-text">
+            <span>Разработка и продвижение:</span>
+            <img src="img/estetica.svg" alt="estetica">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU" type="text/javascript"></script>
+  <script src="js/vendors.min.js"></script>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
